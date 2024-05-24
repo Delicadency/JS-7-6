@@ -9,4 +9,5 @@ const selectItem = () => {
   <option value = "3">Poziom 3</option>`;
   document.body.appendChild(select);
   return select;
+  /* Dodaj ev listener na change i alerty */
 };
