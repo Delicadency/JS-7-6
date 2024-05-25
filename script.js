@@ -8,6 +8,9 @@ const selectItem = () => {
   <option value = "2">Poziom 2</option>
   <option value = "3">Poziom 3</option>`;
   document.body.appendChild(select);
+  select.addEventListener("change", function () {
+    window.alert("Wybrano poziom " + select.value);
+  });
   return select;
-  /* Dodaj ev listener na change i alerty */
 };
+console.log(selectItem());
